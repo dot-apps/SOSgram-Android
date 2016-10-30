@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">SOSgram</string>
+    <string name="slogan">Save lives chatting</string>
+
+
+    <string name="hello_world">Hello World!</string>
+
+
+    <string name="navigation_drawer_open">Open NavBar</string>
+    <string name="navigation_drawer_close">Close NavBar</string>
+
+    <string name="login">LogIn</string>
+    <string name="signup">SignUp</string>
+    <string name="fastsos">Fast SOS</string>
+    <string name="about">About</string>
+
+    <string name="others">Others</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="exit">Exit</string>
+</resources>
