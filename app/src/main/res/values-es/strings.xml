@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">SOSgram</string>
-
     <string name="navigation_drawer_open">Abrir NavBar</string>
     <string name="navigation_drawer_close">Cerrar NavBar</string>
 

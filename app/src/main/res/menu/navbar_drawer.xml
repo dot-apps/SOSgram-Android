@@ -4,29 +4,34 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_login"
-            android:icon="@drawable/ic_signin"
+            android:icon="@drawable/ic_login"
             android:title="@string/login" />
         <item
             android:id="@+id/nav_signup"
             android:icon="@drawable/ic_signup"
-            android:title="@string/signup"/>
+            android:title="@string/signup" />
         <item
             android:id="@+id/nav_fastsos"
-            android:icon="@drawable/ic_sos"
+            android:icon="@drawable/ic_medkit"
             android:title="@string/fastsos" />
+    </group>
+
+    <group>
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_info"
             android:title="@string/about" />
-
     </group>
+
 
     <item android:title="@string/others">
         <menu>
-            <item
-                android:id="@+id/nav_settings"
-                android:icon="@drawable/ic_settings"
-                android:title="@string/settings" />
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/settings" />
+            </group>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_share"

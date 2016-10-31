@@ -7,7 +7,7 @@ android {
         applicationId "com.dotapps.sosgram"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 153
+        versionCode 154
         versionName "0.1 Alpha AS"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [HOCKEYAPP_APP_ID: "281604fe9783430082497af0bf7565c4"]
@@ -27,6 +27,9 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.0'
     compile 'com.android.support:design:25.0.0'
-    testCompile 'junit:junit:4.12'
     compile 'net.hockeyapp.android:HockeySDK:4.1.1'
+    compile 'com.google.android.gms:play-services-ads:9.8.0'
+    compile 'com.google.android.gms:play-services-maps:9.8.0'
+    compile 'com.android.support:support-v4:25.0.0'
+    testCompile 'junit:junit:4.12'
 }
